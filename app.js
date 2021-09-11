@@ -14,15 +14,15 @@ function calculateProfitAndLoss(){
     if (costPrice > sellingPrice) {
         const loss = (costPrice - sellingPrice) * noOfQty;
         const lossPercentage = (loss / costPrice) * 100;
-        showOutput(`Hey, the loss is ${loss} and the percent is ${lossPercentage}% 😥`);
+        showOutput(`Hey, the loss is ${loss.toFixed(2)} and the percent is ${lossPercentage.toFixed(2)}% 😥`);
       } 
       else if (sellingPrice > costPrice) {
         const profit = (sellingPrice - costPrice) * noOfQty;
         const profitPercentage = (profit / costPrice) * 100;
         if (profitPercentage > 50){
-            showOutput(`Hey, the profit is ${profit} and the percent is ${profitPercentage}% 🤑`);
+            showOutput(`Hey, the profit is ${profit.toFixed(2)} and the percent is ${profitPercentage.toFixed(2)}% 🤑`);
         }else{
-            showOutput(`Hey, the profit is ${profit} and the percent is ${profitPercentage}% 💰`);        }
+            showOutput(`Hey, the profit is ${profit.toFixed(2)} and the percent is ${profitPercentage.toFixed(2)}% 💰`);        }
         
       }
       else {

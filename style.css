@@ -45,6 +45,7 @@ input {
     margin: auto;
     width: 33%;
     margin:0.3rem auto;
+    font-size: 1rem;
 }
 
 #submit-btn{
