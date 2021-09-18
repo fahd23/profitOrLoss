@@ -58,10 +58,11 @@ input {
     border-radius: 1rem;
 }
 
-#output{
+div#output{
     font-size: 1.5rem;
     font-weight: 700;
     margin-top: 1rem;
+    margin-bottom: 10rem;
 }
 
 #footer {
@@ -71,9 +72,8 @@ input {
     text-align: center;
     color: var(--dark-color);
     background-color: var(--primary-color);
-    position:absolute;
+    position: fixed;
     bottom: 0;
-    height:100px; 
 }
 
 .footer-icon {
