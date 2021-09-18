@@ -22,7 +22,7 @@ body {
     background-color: var(--primary-color);
 }
 .container {
-    margin: auto;
+    margin: 2rem auto;
     text-align: center;
     max-width: 70%;
 }
@@ -42,7 +42,6 @@ label {
 
 input {
     border-radius: 0.3rem;
-    margin: auto;
     width: 33%;
     margin:0.3rem auto;
     font-size: 1rem;
@@ -62,7 +61,7 @@ div#output{
     font-size: 1.5rem;
     font-weight: 700;
     margin-top: 1rem;
-    margin-bottom: 10rem;
+    margin-bottom: 3rem;
 }
 
 #footer {
@@ -72,8 +71,7 @@ div#output{
     text-align: center;
     color: var(--dark-color);
     background-color: var(--primary-color);
-    position: fixed;
-    bottom: 0;
+    position: absolute;
 }
 
 .footer-icon {
