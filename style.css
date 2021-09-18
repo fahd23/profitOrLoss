@@ -73,6 +73,7 @@ input {
     background-color: var(--primary-color);
     position:absolute;
     bottom: 0;
+    height:100px; 
 }
 
 .footer-icon {
