@@ -67,7 +67,7 @@ div#output{
 #footer {
     width: 100%;
     padding: 1.5rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
     text-align: center;
     color: var(--dark-color);
     background-color: var(--primary-color);
@@ -82,6 +82,6 @@ div#output{
 
 @media (max-width: 600px) {
     input {
-        width: 60%
+        width: 70%
     }
 }
