@@ -64,7 +64,15 @@ div#output{
     margin-bottom: 3rem;
 }
 
-#footer {
+@media (max-width: 600px) {
+    input {
+        width: 70%
+    }
+}
+
+/* footer */
+
+/* #footer {
     width: 100%;
     padding: 1.5rem;
     margin-top: 2rem;
@@ -78,10 +86,4 @@ div#output{
     color: var(--dark-color);
     text-decoration: none;
     margin: 1rem;
-}
-
-@media (max-width: 600px) {
-    input {
-        width: 70%
-    }
-}
+} */
